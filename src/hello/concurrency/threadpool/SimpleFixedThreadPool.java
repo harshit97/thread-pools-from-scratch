@@ -9,6 +9,12 @@ import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ *
+ * Most of the code is taken from this post -
+ * https://caffinc.github.io/2016/03/simple-threadpool/
+ *
+ */
 public class SimpleFixedThreadPool {
 
     private static final AtomicInteger poolCount = new AtomicInteger(0);
